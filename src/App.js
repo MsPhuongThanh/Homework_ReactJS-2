@@ -1,5 +1,5 @@
 
-import Home from "./1_Companent/Home";
+import Home from "./1_Component/Home";
 
 
 function App() {
