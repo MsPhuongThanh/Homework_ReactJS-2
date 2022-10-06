@@ -9,7 +9,7 @@ import { GlassesDetail } from './GlassesDetail'
 export default class Home extends Component {
     ChangeGlasses = (product) => {
         console.log(product)
-        this.setState({ datasGlasse: product })
+        this.setState({ dataGlasses: product })
 
     }
 
@@ -17,7 +17,7 @@ export default class Home extends Component {
         super(props)
 
         this.state = {
-            datasGlasse: null,
+            dataGlasses: null,
         }
     }
     render() {
